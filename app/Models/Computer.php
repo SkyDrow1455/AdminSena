@@ -4,10 +4,10 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class computers extends Model
+class computer extends Model
 {
     public function apprentice()
     {
-        return $this->hasOne('App\Models\Apprentices');
+        return $this->hasOne('App\Models\Apprentice');
     }
 }

@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Training_centers extends Model
+class Training_center extends Model
 {
     public function teachers()
     {
